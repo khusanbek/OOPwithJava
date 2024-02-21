@@ -5,12 +5,13 @@ public class Authentication {
     private Screen screen;
     private String usernameList[];
     private String passwordList[];
-    private boolean CONTINUE = true;
+    private boolean CONTINUE;
 
 
     public Authentication() {
 
         userAuthenticated = false;
+        CONTINUE = true;
         keypad = new Keypad();
         screen = new Screen();
 
