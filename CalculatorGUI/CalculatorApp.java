@@ -1,5 +1,3 @@
-// Fig. 11.43: GridLayoutFrame.java
-// Demonstrating GridLayout.
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.UIManager.*;
@@ -67,7 +65,5 @@ public class CalculatorApp extends JFrame
         calculatorApp.setResizable(false);
         calculatorApp.setSize( 260, 245 ); // set frame size
         calculatorApp.setVisible( true ); // display frame
-
-
     } // end main
-} // end class GridLayoutFrame
+} 
